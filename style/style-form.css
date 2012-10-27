@@ -1,0 +1,202 @@
+html {
+	background-color: #39342C;
+}
+
+body {
+	margin: 0px auto;
+}
+
+header {
+	height: 80px;
+	margin-top: 10px;
+	background-color: #006984;
+	border-top: 2px groove white;
+	border-bottom: 2px groove white;
+}
+
+#pagetop {
+	margin: 0 auto;
+	width: 960px;
+	height: 60px;
+
+}
+nav {
+	height: 50px;
+	float: right;
+	display: block;
+	font-family:'Tulpen One';
+	font-weight: 400;
+	font-size: 25pt;
+	color: white;
+}
+        ol, ul {
+          display: block;
+          list-style: none;
+          height: 38px;
+          margin-top: 20px;
+          margin-bottom: 0px;
+          padding-top: 8px;
+        }
+        a {
+          text-decoration: none;
+        }
+        nav > ul > li {
+			height: 34px;
+			display: block;
+			float: left;
+			margin-right: 0px;
+			border-left: 3px solid white;
+			padding-top: 5px;
+			padding-bottom: 5px;
+        }
+
+        nav > ul > li > a {
+			display: block;
+			height: 34px;
+			padding: 0px 30px;
+			color: white;
+			font-weight: bold;
+      	}
+
+        nav > ul > li > a:hover {
+			text-decoration: none;
+        	background-color: white;
+        	color: black;
+        	border-radius: 10px;
+        }
+
+        nav > ul > li > a.active {
+			text-decoration: none;
+        	background-color: white;
+        	color: black;
+        	border-radius: 10px;
+        }
+
+		#first {
+			border-left: none;
+		}
+
+#wrapper {
+	width: 955px;
+	height: 490px;
+	margin: 80px auto 150px auto;
+	border: 3px ridge white;
+	padding: 5px;
+	background-color: #003F4F;
+}
+
+	#leftcontent {
+		width: 400px;
+		height: 490px;
+		float: left;
+		background-color: #E5C69F;
+	}
+
+		#ff {
+			height: 245px;
+			width: 400px;
+		}
+
+		.slider-wrapper.theme-default {
+		  width: 400px;
+		  height: 235px;
+		}
+
+	#rightcontent {
+		float: right;
+		width: 550px;
+		height: 490px;
+		background-color: #E5C69F;
+	}
+
+		#contactus {
+			width: 350px;
+			height: 460px;
+			margin: 20px 5px 0px 15px;
+			float: left;
+		}
+
+		h3 {
+			width: 520px;
+			margin: 5px auto;
+			text-indent: 10px;
+			color: #003F4F;
+			font-family:'Tulpen One';
+			font-size: 24pt;
+			border-bottom: 2pt solid #003399;
+		}
+
+		#contactform {
+			width: 335px;
+			margin-left: 15px;
+		}
+
+			#formlabel {
+				width: 150px;
+				height: 20px;
+				padding: 5px 0px 3px 10px;
+				font-size: 12pt;
+				font-weight: bold;
+			}
+			form input {
+				width: 300px;
+				padding: 2px 0px 2px 15px;
+				margin-bottom: 5px;
+				font-size: 12pt;
+				font-weight: bold;
+			}
+			textarea {
+				width: 300px;
+				padding: 2px 0px 2px 15px;
+				margin-bottom: 5px;
+				font-size: 12pt;
+				font-weight: bold;
+			}
+			form input#send {
+				margin-top: 10px;
+				margin-left: 210px;
+				padding: 2px 0px;
+				text-align: center;
+				width: 100px;
+				height: 30px;
+				border-radius: 3px;
+				background-color: #70E300;
+				background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #70E300), color-stop(100%, #338533));
+				background-image: -webkit-linear-gradient(top, #70E300, #338533);
+				background-image: -moz-linear-gradient(top, #70E300, #338533);
+				background-image: -ms-linear-gradient(top, #70E300, #338533);
+				background-image: -o-linear-gradient(top, #70E300, #338533);
+				background-image: linear-gradient(top, #70E300, #338533);
+	        }
+
+		#biglogo {
+			height: 200px;
+			width: 115px;
+			float: right;
+			padding: 260px 20px 0px 0px;
+		}
+
+footer {
+	height: 40px;
+	margin: 0 auto;
+	background-color: #006984;
+	border-top: 1px groove white;
+	border-bottom: 1px groove white;
+}
+
+	#footwrap {
+		width: 960px;
+		margin: 0 auto;
+		color: white;
+		font-size: 9pt;
+	}
+		#foot-l {
+			float: left;
+			margin-left: 5px;
+			padding-top: 10px;
+		}
+		#foot-r {
+			float: right;
+			margin-right: 5px;
+			padding-top: 10px;
+		}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Tulpen+One' rel='stylesheet' type='text/css'>
+<title>Fatherland Flats Floorplans</title>
+<link rel="stylesheet" type="text/css" href="style/style-floor.css"/>
+<link rel="stylesheet" type="text/css" href="style/nivo-slider.css" />
+<link rel="stylesheet" type="text/css" href="style/default.css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="http://cdn.jquerytools.org/1.2.7/full/jquery.tools.min.js"></script>
+<script src="scripts/jquery.nivo.slider.pack.js"></script>
+
+<script type="text/javascript">
+    $(window).load(function() {
+    $('#slider').nivoSlider();
+  });
+</script>
+<script>
+  $(document).ready(function() {
+      $("img[rel]").overlay();
+      $("button[rel]").overlay();
+    });
+</script>
+</head>
+
+<body>
+<header>
+  <div id="pagetop">
+  <nav>
+    <ul>
+      <li id="first"><a href="index.html">HOME</a></li>
+      <li><a href="location.html">LOCATION</a></li>
+      <li><a href="floorplans.html" class="active">FLOORPLANS</a></li>
+      <li><a href="neighborhood.html">NEIGHBORHOOD</a></li>
+      <li><a href="form.html">CONTACT US</a></li>
+    </ul>
+  </nav>
+  </div>
+</header>
+
+<div id="wrapper">
+  <div id="leftcontent">
+    <div id="ff">
+      <img src="images/logov4.png" id="logo" />
+    </div>
+    <div class="slider-wrapper theme-default">
+      <div id="slider" class="nivoSlider">
+        <img src="images/slider1c.png" />
+        <img src="images/slider2c.png" />
+        <img src="images/slider3c.png" />
+        <img src="images/slider4c.png" />
+      </div>
+    </div><!-- close slider -->
+  </div><!-- close leftcontent -->
+
+  <div id="rightcontent">
+    <div id="triggers">
+      <div id="boxone" class="thumbs">
+        <img src="images/1br-thumb.png" rel="#onebig" class="thumbpic" id="one" />
+        <h4>One Bedroom</h4>
+        <button rel="#onebig">ENLARGE</button>
+      </div>
+
+      <div id="boxtwo" class="thumbs">
+        <img src="images/2br-thumb.png" rel="#twobig" class="thumbpic" id="two" />
+        <h4>Two Bedroom</h4>
+        <button rel="#twobig">ENLARGE</button>
+      </div>
+
+      <div id="boxthree" class="thumbs">
+        <img src="images/2plus-thumb.png" rel="#twoplusbig" class="thumbpic" id="twoplus" />
+        <h4>Two Bedroom + Flex</h4>
+        <button rel="#twoplusbig">ENLARGE</button>
+      </div>
+    </div><!--close div triggers-->
+
+    <div class="simple_overlay" id="onebig">
+    <!-- large image -->
+      <img src="images/1br.png" />
+    <!-- image details -->
+      <div class="details">
+        <img src="images/bigFF.png" id="biglogo"/>
+        <h3>Fatherland Flats</h3>
+        <h4>One Bedroom</h4>
+      </div>
+    </div>
+ 
+    <div class="simple_overlay" id="twobig">
+    <!-- large image -->
+      <img src="images/2br.png" />
+    <!-- image details -->
+      <div class="details">
+        <img src="images/bigFF.png" id="biglogo"/>
+        <h3>Fatherland Flats</h3>
+        <h4>Two Bedroom</h4>
+      </div>
+    </div>
+
+    <div class="simple_overlay" id="twoplusbig">
+    <!-- large image -->
+      <img src="images/2plus.png" />
+    <!-- image details -->
+      <div class="details">
+        <img src="images/bigFF.png" id="biglogo"/>
+        <h3>Fatherland Flats</h3>
+        <h4>Two Bedroom + Flex</h4>
+      </div>
+    </div>
+
+  </div><!-- close rightcontent -->
+
+</div><!-- close wrapper -->
+
+<footer>
+  <div id="footwrap">
+      <div id="foot-l">Developed by 400 Fatherland, GP</div>
+      <div id="foot-r">enVision Web Design</div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='http://fonts.googleapis.com/css?family=Oswald:700,400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Tulpen+One' rel='stylesheet' type='text/css'>
+<title>Fatherland Flats</title>
+
+<link rel="stylesheet" type="text/css" href="style/style-form.css"/>
+<link rel="stylesheet" type="text/css" href="style/nivo-slider.css" />
+<link rel="stylesheet" type="text/css" href="style/default.css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="scripts/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+    $(window).load(function() {
+    $('#slider').nivoSlider();
+  });
+</script>
+</head>
+<body>
+<header>
+  <div id="pagetop">
+	<nav>
+		<ul>
+			<li id="first"><a href="index.html">HOME</a></li>
+			<li><a href="location.html">LOCATION</a></li>
+			<li><a href="floorplans.html">FLOORPLANS</a></li>
+			<li><a href="neighborhood.html">NEIGHBORHOOD</a></li>
+			<li><a href="form.html" class="active">CONTACT US</a></li>
+		</ul>
+	</nav>
+  </div>
+</header>
+
+<div id="wrapper">
+<div id="leftcontent">
+	<div id="ff"><img src="images/logov4.png" id="logo" /></div>
+	<div class="slider-wrapper theme-default">
+      <div id="slider" class="nivoSlider">
+        <img src="images/slider1c.png" />
+        <img src="images/slider2c.png" />
+        <img src="images/slider3c.png" />
+        <img src="images/slider4c.png" />
+      </div>
+    </div><!-- close slider -->
+</div>
+
+<div id="rightcontent">
+	<div id="contactus">
+		<h3>Want More Information? Please Complete the Following Form:</h3>
+		<form name="contactform" action="send_form_email.php" method="post">
+		<div id="formlabel">Name:</div>
+		<input type="text" name="name" size="30" /><br />
+		<div id="formlabel">Email:</div>
+		<input type="text" name="email" size="30"/><br />
+		<div id="formlabel">Phone Number:</div>
+		<input type="text" name="phone" size="30"/><br />
+		<div id="formlabel">Comments:</div>
+		<textarea name="comments" cols="45" rows="5"></textarea><br />
+		<input type="submit" id="send" value="SUBMIT">
+		</form>
+	</div><!-- close contactus -->
+	<img src="images/bigFF.png" id="biglogo"/>
+</div><!-- rightcontent -->
+</div><!-- close wrapper -->
+<footer>
+	<div id="footwrap">
+	    <div id="foot-l">Developed by 400 Fatherland, GP</div>
+	    <div id="foot-r">enVision Web Design</div>
+	</div>
+</footer>
+
+</body>
+</html>

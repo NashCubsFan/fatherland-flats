@@ -1,0 +1,189 @@
+html {
+	background-color: #39342C;
+}
+
+body {
+	margin: 0px auto;
+}
+
+header {
+	height: 80px;
+	margin-top: 10px;
+	background-color: #006984;
+	border-top: 2px groove white;
+	border-bottom: 2px groove white;
+}
+
+#pagetop {
+	margin: 0 auto;
+	width: 960px;
+	height: 60px;
+
+}
+nav {
+	height: 50px;
+	float: right;
+	display: block;
+	font-family:'Tulpen One';
+	font-weight: 100;
+	font-size: 25pt;
+	color: white;
+}
+
+        ol, ul {
+          display: block;
+          list-style: none;
+          height: 38px;
+          margin-top: 20px;
+          margin-bottom: 0px;
+          padding-top: 8px;
+        }
+        a {
+          text-decoration: none;
+        }
+        nav > ul > li {
+			height: 34px;
+			display: block;
+			float: left;
+			margin-right: 0px;
+			border-left: 3px solid white;
+			padding-top: 5px;
+			padding-bottom: 5px;
+        }
+
+        nav > ul > li > a {
+			display: block;
+			height: 34px;
+			padding: 0px 30px;
+			color: white;
+			font-weight: bold;
+      	}
+
+        nav > ul > li > a:hover {
+			text-decoration: none;
+        	background-color: white;
+        	color: black;
+        	border-radius: 10px;
+        }
+
+		#first {
+			border-left: none;
+		}
+
+#wrapper {
+	width: 955px;
+	height: 490px;
+	margin: 80px auto 150px auto;
+	border: 3px ridge white;
+	padding: 5px;
+	background-color: #003F4F;
+}
+
+	#leftcontent {
+		width: 400px;
+		height: 490px;
+		float: left;
+		background-color: #E5C69F;
+	}
+
+		#ff {
+			height: 245px;
+			width: 400px;
+		}
+
+		.slider-wrapper.theme-default {
+		  width: 400px;
+		  height: 235px;
+		}
+
+	#rightcontent {
+		float: right;
+		width: 550px;
+		height: 490px;
+		background-color: #E5C69F;
+	}
+
+		#render {
+			height: 245px;
+		}
+
+		#descr {
+			height: 245px;
+			width: 550px;
+		}
+
+			h2 {
+				width: 540px;
+				max-height: 50px;
+				margin: 5px auto 0px auto;
+				color: #003F4F;
+				font-family:'Tulpen One';
+				font-size: 32pt;
+				text-align: center;
+				border-bottom: 2pt solid #003399;
+			}
+
+			p {
+				width: 400px;
+				height: 115px;
+				float: left;
+				margin-top: 15px;
+				padding: 0px 15px 0px 5px;
+				text-align: justify;
+				font-family: 'Oswald', sans-serif;
+				font-weight: 300;
+				font-size: 13pt;
+				line-height: 1.3;
+				text-indent: 15px;
+			}
+
+			#descr > p > a {
+				color: #2929CC;
+			}
+
+			#descr > p > a:hover {
+				background-color: #5C8AE6;
+				color: white;
+			}
+
+			#biglogo {
+				position: relative;
+				float: left;
+				left: 5px;
+				height: 200px;
+				width: 115px;
+				padding-right: 10px;
+			}
+
+				img#fair, img#sands {
+					position: relative;
+					float: right;
+					height: 30px;
+					margin: 10px 15px 5px 5px;
+				}
+
+footer {
+	height: 40px;
+	margin: 0 auto;
+	background-color: #006984;
+	border-top: 1px groove white;
+	border-bottom: 1px groove white;
+}
+
+	#footwrap {
+		width: 960px;
+		margin: 0 auto;
+		color: white;
+		font-size: 9pt;
+	}
+		#foot-l {
+			float: left;
+			margin-left: 5px;
+			padding-top: 10px;
+		}
+		#foot-r {
+			float: right;
+			margin-right: 5px;
+			padding-top: 10px;
+		}
+
